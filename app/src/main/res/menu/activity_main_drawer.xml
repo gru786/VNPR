@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@mipmap/home3"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/addPolice"
+            android:icon="@mipmap/add2"
+            android:title="@string/add_police" />
+        <item
+            android:id="@+id/manage"
+            android:icon="@mipmap/mg"
+            android:title="@string/manage" />
+        <item
+            android:id="@+id/blackwhite"
+            android:icon="@mipmap/call"
+            android:title="Contact" />
+        <item
+            android:id="@+id/logout"
+            android:title="Log Out"
+            android:icon="@mipmap/l"/>
+    </group>
+
+
+
+</menu>

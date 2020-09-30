@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/bg14">
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="License No-"
+                android:textSize="18dp"
+                android:layout_marginLeft="20dp"
+                android:textColor="#000"
+                android:textAllCaps="true"
+                />
+
+
+
+
+        </TableRow>
+    </TableLayout>
+
+
+    <androidx.appcompat.widget.AppCompatSpinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/policespin"
+        android:layout_marginTop="20dp"
+        android:scrollbars="vertical"
+        >
+
+    </androidx.appcompat.widget.AppCompatSpinner>
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+
+    <TableRow>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Vehicle No-:"
+            android:textSize="20dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/lpn"
+            android:textSize="20dp"
+            android:layout_marginLeft="10dp"/>
+
+    </TableRow>
+    <TableRow
+        android:layout_marginTop="15dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Status"
+            android:textSize="20dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/stat"
+            android:textSize="20dp"
+            android:layout_marginLeft="10dp"/>
+    </TableRow>
+        <TableRow
+            android:layout_marginTop="15dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Date/Time of Blacklisting"
+                android:textSize="20dp"/>
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/dandt"
+                android:textSize="20dp"
+                android:layout_marginLeft="10dp"/>
+        </TableRow>
+    </TableLayout>
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TableRow>
+            <Button
+                android:id="@+id/btnback"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:shadowColor="#651FFF"
+
+                android:text="Back"
+                android:textAllCaps="true"
+                android:layout_gravity="center"
+                />
+
+            <Button
+                android:id="@+id/btnwhite"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:text="Whitelist"
+                android:textAllCaps="true"></Button>
+        </TableRow>
+    </TableLayout>
+
+
+
+
+</LinearLayout>

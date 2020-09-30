@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login"
+    android:background="@mipmap/bg9"
+
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LoginId"
+        android:layout_marginTop="100dp"
+        android:fontFamily="casual"
+        android:id="@+id/txtviewl"
+        android:layout_alignParentTop="true"
+        android:textStyle="bold"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="casual"
+        android:id="@+id/txtlogin"
+
+        android:selectAllOnFocus="true"
+        android:soundEffectsEnabled="true"
+
+
+        android:layout_below="@+id/txtviewl"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Password"
+        android:fontFamily="casual"
+        android:layout_below="@+id/txtlogin"
+        android:id="@+id/txtviewp"
+        android:textStyle="bold"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="casual"
+        android:soundEffectsEnabled="true"
+        android:inputType="textPassword"
+        android:id="@+id/txtpass"
+
+        android:selectAllOnFocus="true"
+        android:layout_below="@+id/txtviewp"
+        />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtpass"
+        >
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+
+
+        android:id="@+id/btnsubmit"
+
+
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Exit"
+        android:layout_marginLeft="10dp"
+
+        android:id="@+id/btnexit"
+
+
+
+
+        />
+    </LinearLayout>
+
+
+
+</RelativeLayout>

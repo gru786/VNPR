@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/phome"
+            android:icon="@mipmap/home3"
+            android:title="Home" />
+        <item
+            android:id="@+id/pupdatepass"
+            android:icon="@mipmap/mg"
+            android:title="Update Password" />
+        <item
+            android:id="@+id/pscanCar"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Blacklist" />
+        <item
+            android:id="@+id/pbw"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Whitelist" />
+
+
+        <item
+            android:id="@+id/plogout"
+            android:icon="@mipmap/l"
+            android:title="Log Out" />
+    </group>
+
+
+
+</menu>
